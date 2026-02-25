@@ -3,7 +3,7 @@ mylist=[]
 a.sort()
 n=len(a)
 for i in range(0,n):
-    if a[i]!=0 and a[i]==a[i-1]:
+    if i!=0 and a[i]==a[i-1]:
         continue
     j=i+1
     k=n-1
