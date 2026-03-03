@@ -1,10 +1,4 @@
-n=56773
-while n>0:
-    res=n%10
-    n=n//10
-    print(res)
 
----------------------
 
 n=56773
 def nodi(n):
@@ -15,4 +9,3 @@ def nodi(n):
     return count
 print(nodi(n))
 
----------------------
